@@ -1,8 +1,26 @@
 aid: local-holdings-limited
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/local-holdings-limited.png
 name: Local Holdings Limited
-description: Local Holdings Limited is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Local (uselocal.co) is a Gulf Cooperation Council fintech and hospitality-technology company
+  that replaces traditional card terminals with a single QR code guests scan to pay, order, and earn loyalty
+  points instantly. Its pay-at-table, checkout, and remote payment-link flows serve 200+ restaurants, hotels,
+  and hospitals across Bahrain, the UAE, and Saudi Arabia, capturing customer profiles from each transaction
+  and feeding real-time revenue, table-turn, and staff-performance analytics back to venues. Local integrates
+  with regional payment methods (BenefitPay, Apple Pay, Google Pay, all major cards) and POS platforms including
+  Odoo, Oracle, Lightspeed, Square, and Invo. Local Holdings Limited was surfaced as a 500 Global portfolio
+  company and added to the API Evangelist network; no public developer API, documentation, or SDK surface was
+  found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/local-holdings-limited/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +28,24 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- FinTech
+- Payments
+- QR Payments
+- Hospitality
+- Loyalty
+- Point of Sale
+- Restaurants
+- GCC
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +53,15 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/local-holdings-limited-domain-security.yml
 - type: Website
   url: https://uselocal.co
+- type: Blog
+  url: https://www.uselocal.co/blog
+- type: TermsOfService
+  url: https://www.uselocal.co/terms
+- type: PrivacyPolicy
+  url: https://www.uselocal.co/privacy
+- type: Support
+  url: mailto:support@uselocal.co
