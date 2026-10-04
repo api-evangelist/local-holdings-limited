@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/local-holdings-limited.png
-name: Local Holdings Limited
+name: Local
 description: Local (uselocal.co) is a Gulf Cooperation Council fintech and hospitality-technology company
   that replaces traditional card terminals with a single QR code guests scan to pay, order, and earn loyalty
   points instantly. Its pay-at-table, checkout, and remote payment-link flows serve 200+ restaurants, hotels,
@@ -86,3 +86,4 @@ common:
   url: https://www.uselocal.co/privacy
 - type: Support
   url: mailto:support@uselocal.co
+x-legal-name: Local Holdings Limited
